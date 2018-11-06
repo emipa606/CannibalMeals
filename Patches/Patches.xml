@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch> 
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName="ElectricStove" or defName="FueledStove"]/recipes</xpath>
+	<value>
+      <li>CAN_CookCannibalMealSimple</li>
+      <li>CAN_CookCannibalMealFine</li>
+      <li>CAN_CookCannibalMealLavish</li>
+      <li>CAN_CookCannibalMealSurvival</li>
+      <li>CAN_MakeCannibalPemmican</li>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName="Campfire"]/recipes</xpath>
+	<value>
+      <li>CAN_CookCannibalMealSimpleCampfire</li>
+      <li>CAN_MakeCannibalPemmicanCampfire</li>
+	</value>
+  </Operation>
+
+</Patch>
