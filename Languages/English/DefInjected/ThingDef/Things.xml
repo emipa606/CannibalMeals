@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pemmican -->
+
+  <CAN_CannibalPemmican.label>cannibal pemmican</CAN_CannibalPemmican.label>
+  <CAN_CannibalPemmican.description>A preserved mashed mixture of human fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</CAN_CannibalPemmican.description>
+
+
+  <!-- Survival Meal -->
+
+  <CAN_CannibalMealSurvivalPack.label>packaged survival cannibal meal</CAN_CannibalMealSurvivalPack.label>
+  <CAN_CannibalMealSurvivalPack.description>A high-quality cannibal packaged meal, manufactured for use in survival situations.</CAN_CannibalMealSurvivalPack.description>
+
+
+  <!-- Simple Meal -->
+
+  <CAN_CannibalMealSimple.label>simple cannibal meal</CAN_CannibalMealSimple.label>
+  <CAN_CannibalMealSimple.description>A simple meal quickly cooked from human meat and a few ingredients.</CAN_CannibalMealSimple.description>
+
+
+  <!-- Fine Meal -->
+
+  <CAN_CannibalMealFine.label>fine cannibal meal</CAN_CannibalMealFine.label>
+  <CAN_CannibalMealFine.description>A complex dish assembled with care from human meat and a wide selection of ingredients.</CAN_CannibalMealFine.description>
+
+
+  <!-- Lavish Meal -->
+
+  <CAN_CannibalMealLavish.label>lavish cannibal meal</CAN_CannibalMealLavish.label>
+  <CAN_CannibalMealLavish.description>A masterpiece of the cannibal culinary arts, this meal nourishes the body, mind, and soul.</CAN_CannibalMealLavish.description>
+
+
+</LanguageData>

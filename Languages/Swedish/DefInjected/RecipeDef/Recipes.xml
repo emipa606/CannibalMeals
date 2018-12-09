@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pemmican -->
+
+  <CAN_MakeCannibalPemmican.label>Göra kannibalisk pemmikan</CAN_MakeCannibalPemmican.label>
+  <CAN_MakeCannibalPemmican.description>Göra kannibalisk pemmikan, en bevarad blandning av människofett och växter. Smakar ok men inte äckligt. Håller sig väldigt länge utan att kylas.</CAN_MakeCannibalPemmican.description>
+  <CAN_MakeCannibalPemmican.jobString>Gör kannibalisk pemmican.</CAN_MakeCannibalPemmican.jobString>
+
+  <CAN_MakeCannibalPemmicanCampfire.label>Göra kannibalisk pemmikan</CAN_MakeCannibalPemmicanCampfire.label>
+  <CAN_MakeCannibalPemmicanCampfire.description>Göra kannibalisk pemmikan, en bevarad blandning av människofett och växter. Smakar ok men inte äckligt. Håller sig väldigt länge utan att kylas..</CAN_MakeCannibalPemmicanCampfire.description>
+  <CAN_MakeCannibalPemmicanCampfire.jobString>Gör kannibalisk pemmikan.</CAN_MakeCannibalPemmicanCampfire.jobString>
+
+
+  <!-- Simple Meal -->
+
+  <CAN_CookCannibalMealSimple.label>laga enkel kannibalisk måltid</CAN_CookCannibalMealSimple.label>
+  <CAN_CookCannibalMealSimple.description>lagar en enkel måltid baserat på människokött.</CAN_CookCannibalMealSimple.description>
+  <CAN_CookCannibalMealSimple.jobString>lagar enkel kannibalisk måltid.</CAN_CookCannibalMealSimple.jobString>
+
+  <CAN_CookCannibalMealSimpleCampfire.label>laga enkel kannibalisk måltid</CAN_CookCannibalMealSimpleCampfire.label>
+  <CAN_CookCannibalMealSimpleCampfire.description>lagas en enkel måltid baserat på människokött</CAN_CookCannibalMealSimpleCampfire.description>
+  <CAN_CookCannibalMealSimpleCampfire.jobString>lagar enkel kannibalisk måltid.</CAN_CookCannibalMealSimpleCampfire.jobString>
+
+
+  <!-- Fine Meal -->
+
+  <CAN_CookCannibalMealFine.label>laga förfinad kannibalisk måltid</CAN_CookCannibalMealFine.label>
+  <CAN_CookCannibalMealFine.description>lagar en mer komplex måltid baserat på människokött och grönsaker</CAN_CookCannibalMealFine.description>
+  <CAN_CookCannibalMealFine.jobString>lagar förfinad kannibalisk måltid.</CAN_CookCannibalMealFine.jobString>
+
+
+  <!-- Lavish Meal -->
+
+  <CAN_CookCannibalMealLavish.label>laga utsökt kannibalisk måltid</CAN_CookCannibalMealLavish.label>
+  <CAN_CookCannibalMealLavish.description>lagar en väldigt komplex måltid baserat på människokött och grönsaker. Mycket av ingredienserna försvinner vid tillagningen.</CAN_CookCannibalMealLavish.description>
+  <CAN_CookCannibalMealLavish.jobString>lagar utsökt kannibalisk måltid.</CAN_CookCannibalMealLavish.jobString>
+
+
+  <!-- Survival Meal -->
+
+  <CAN_CookCannibalMealSurvival.label>laga kannibalisk överlevnadsmåltid</CAN_CookCannibalMealSurvival.label>
+  <CAN_CookCannibalMealSurvival.description>lagar en överlevnadsmåltid baserat på människokött och grönsaker. Mycket av ingredienserna försvinner vid tillagningen.</CAN_CookCannibalMealSurvival.description>
+  <CAN_CookCannibalMealSurvival.jobString>lagar kannibalisk överlevnadsmåltid.</CAN_CookCannibalMealSurvival.jobString>
+
+
+</LanguageData>
