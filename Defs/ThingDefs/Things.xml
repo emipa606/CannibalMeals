@@ -6,6 +6,9 @@
     <defName>CAN_CannibalPemmican</defName>
     <label>cannibal pemmican</label>
     <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
     <description>A preserved mashed mixture of human fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</description>
     <graphicData>
       <texPath>CAN_CannibalPemmican</texPath>
