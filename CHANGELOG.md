@@ -1,5 +1,8 @@
 # Cannibal Meals (continued) Change Log
 
+## 1.0.3
+- Fixed Pemmican-category
+
 ## 1.0.2
 - Translation support
 
