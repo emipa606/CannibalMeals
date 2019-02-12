@@ -1,19 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-  <identifier>VGCannibalPatch</identifier>
-  <version>1.0.2.0</version>
-  <dependencies>
-    <li>VGPVegetableGarden</li>
-    <li>VGPGardenGourmet</li>
-  </dependencies>
+  <identifier>CannibalMeals</identifier>
+  <version>1.0.4.0</version>
+  <dependencies />
   <incompatibleWith>
-    <li>CannibalMeals</li>
+    <li>VGCannibalPatch</li>
   </incompatibleWith>
   <loadBefore />
-  <loadAfter>
-    <li>VGPVegetableGarden</li>
-    <li>VGPGardenGourmet</li>
-  </loadAfter>
-  <manifestUri>https://raw.githubusercontent.com/emipa606/VGCannibalPatch/master/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/emipa606/VGCannibalPatch/releases</downloadUri>
+  <loadAfter />
+  <manifestUri>https://raw.githubusercontent.com/emipa606/CannibalMeals/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/emipa606/CannibalMeals/releases</downloadUri>
 </Manifest>
