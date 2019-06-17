@@ -20,4 +20,23 @@
 	</value>
   </Operation>
 
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName = "RGK_FueledStove"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="RGK_FueledStove" or defName="GL_ElectricStove"]/recipes</xpath>
+				<value>
+				  <li>CAN_CookCannibalMealSimple</li>
+				  <li>CAN_CookCannibalMealFine</li>
+				  <li>CAN_CookCannibalMealLavish</li>
+				  <li>CAN_CookCannibalMealSurvival</li>
+				  <li>CAN_MakeCannibalPemmican</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
 </Patch>
