@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
   <identifier>CannibalMeals</identifier>
-  <version>1.0.4.0</version>
+  <version>1.0.6.0</version>
   <dependencies />
   <incompatibleWith>
     <li>VGCannibalPatch</li>
   </incompatibleWith>
   <loadBefore />
-  <loadAfter />
+  <loadAfter>
+	<li>GloomyFurniture</li>
+  </loadAfter>
   <manifestUri>https://raw.githubusercontent.com/emipa606/CannibalMeals/master/About/Manifest.xml</manifestUri>
   <downloadUri>https://github.com/emipa606/CannibalMeals/releases</downloadUri>
 </Manifest>
