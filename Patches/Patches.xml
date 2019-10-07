@@ -2,7 +2,7 @@
 <Patch> 
 
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="ElectricStove" or defName="FueledStove"]/recipes</xpath>
+    <xpath>*/ThingDef[defName="ElectricStove" or defName="FueledStove" or defName="VFE_TableStoveLarge"]/recipes</xpath>
 	<value>
       <li>CAN_CookCannibalMealSimple</li>
       <li>CAN_CookCannibalMealFine</li>
@@ -38,5 +38,12 @@
 			</li>
 		</operations>
 	</Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName="ButcherSpot" or defName="TableButcher" or defName="VFE_TableButcherElectric"]/recipes</xpath>
+	<value>
+      <li>CAN_MakeCannibalKibble</li>
+	</value>
+  </Operation>
 
 </Patch>
