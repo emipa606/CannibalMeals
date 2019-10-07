@@ -96,6 +96,61 @@
     <workAmount>1400</workAmount>
   </RecipeDef>
   
+  <!-- Kibble -->
+    <RecipeDef>
+    <defName>CAN_MakeCannibalKibble</defName>
+    <label>make cannibal kibble</label>
+    <description>Make animal kibble by combining raw human and plants.</description>
+    <jobString>Making cannibal kibble.</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Meat_Human</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+          <thingDefs>
+            <li>Hay</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <CAN_CannibalKibble>50</CAN_CannibalKibble>
+    </products>
+    <fixedIngredientFilter>
+	  <thingDefs>
+		<li>Meat_Human</li>
+	  </thingDefs>
+	  <categories>
+		<li>PlantFoodRaw</li>
+	  </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+	  <thingDefs>
+		<li>Meat_Human</li>
+	  </thingDefs>
+	  <categories>
+		<li>PlantFoodRaw</li>
+	  </categories>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  
 	<!-- Simple Meal -->
 	<RecipeDef Name="CAN_CookMealSimple" ParentName="CAN_CookMealBase">
     <defName>CAN_CookCannibalMealSimple</defName>
