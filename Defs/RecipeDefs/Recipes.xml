@@ -31,6 +31,10 @@
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
 		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
 	</RecipeDef>
 
 	<!-- Pemmican -->
@@ -90,69 +94,9 @@
     <workSkill>Cooking</workSkill>
     <researchPrerequisite>Pemmican</researchPrerequisite>
   </RecipeDef>
-
-	<RecipeDef ParentName="CAN_MakeCannibalPemmican">
-    <defName>CAN_MakeCannibalPemmicanCampfire</defName>
-    <workAmount>1400</workAmount>
-  </RecipeDef>
-  
-  <!-- Kibble -->
-    <RecipeDef>
-    <defName>CAN_MakeCannibalKibble</defName>
-    <label>make cannibal kibble</label>
-    <description>Make animal kibble by combining raw human and plants.</description>
-    <jobString>Making cannibal kibble.</jobString>
-    <workAmount>450</workAmount>
-    <workSpeedStat>CookSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_CookMeal</soundWorking>
-    <allowMixingIngredients>true</allowMixingIngredients>
-    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Meat_Human</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <categories>
-            <li>PlantFoodRaw</li>
-          </categories>
-          <thingDefs>
-            <li>Hay</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <products>
-      <CAN_CannibalKibble>50</CAN_CannibalKibble>
-    </products>
-    <fixedIngredientFilter>
-	  <thingDefs>
-		<li>Meat_Human</li>
-	  </thingDefs>
-	  <categories>
-		<li>PlantFoodRaw</li>
-	  </categories>
-    </fixedIngredientFilter>
-    <defaultIngredientFilter>
-	  <thingDefs>
-		<li>Meat_Human</li>
-	  </thingDefs>
-	  <categories>
-		<li>PlantFoodRaw</li>
-	  </categories>
-    </defaultIngredientFilter>
-    <workSkill>Cooking</workSkill>
-  </RecipeDef>
   
 	<!-- Simple Meal -->
-	<RecipeDef Name="CAN_CookMealSimple" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_CookMealSimple" ParentName="CAN_CookMealBase">
     <defName>CAN_CookCannibalMealSimple</defName>
     <label>cook simple cannibal meal</label>
     <description>Cooks a straightforward meal from human meat.</description>
@@ -177,11 +121,6 @@
 	  <CAN_CannibalMealSimple>1</CAN_CannibalMealSimple>
 	</products>
     <workSkill>Cooking</workSkill>
-  </RecipeDef>
-  
-	<RecipeDef ParentName="CAN_CookMealSimple">
-    <defName>CAN_CookCannibalMealSimpleCampfire</defName>
-    <workAmount>1000</workAmount> <!-- other meals use WorkToMake stat -->
   </RecipeDef>
 
 	<!-- Fine Meal -->
@@ -297,6 +236,185 @@
 	  <Cooking>8</Cooking>
     </skillRequirements>
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+  </RecipeDef>
+  
+  <!-- Campfire stuff -->
+  <RecipeDef Name="CAN_CampfireBase" Abstract="True">
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Meat_Human</li>
+		</thingDefs>
+		<categories>
+			<li>PlantFoodRaw</li>
+			<li>AnimalProductRaw</li>
+		</categories>
+		<specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		</specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<thingDefs>
+			<li>Meat_Human</li>
+		</thingDefs>
+		<categories>
+			<li>PlantFoodRaw</li>
+			<li>AnimalProductRaw</li>
+		</categories>
+		<disallowedCategories>
+			<li>EggsFertilized</li>
+		</disallowedCategories>
+		<disallowedThingDefs>
+			<li>InsectJelly</li>
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+		<li>Campfire</li>
+	</recipeUsers>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="CAN_CampfireBase">
+    <defName>CAN_CookCannibalMealSimpleCampfire</defName>
+    <workAmount>1000</workAmount> <!-- other meals use WorkToMake stat -->
+	<label>cook simple cannibal meal</label>
+    <description>Cooks a straightforward meal from human meat.</description>
+    <jobString>Cooking simple meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Meat_Human</li>
+          </thingDefs>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+	<products>
+	  <CAN_CannibalMealSimple>1</CAN_CannibalMealSimple>
+	</products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="CAN_CampfireBase">
+    <defName>CAN_MakeCannibalPemmicanCampfire</defName>
+    <workAmount>1400</workAmount>
+	<label>Make cannibal pemmican</label>
+    <description>Make cannibal pemmican, a preserved combination of human meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</description>
+    <jobString>Making pemmican.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Meat_Human</li>
+          </thingDefs>
+        </filter>
+        <count>0.25</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>AnimalProductRaw</li>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.25</count>
+      </li>
+    </ingredients>
+    <products>
+      <CAN_CannibalPemmican>16</CAN_CannibalPemmican>
+    </products>
+    <fixedIngredientFilter>
+	  <thingDefs>
+		<li>Meat_Human</li>
+	  </thingDefs>
+	  <categories>
+		<li>PlantFoodRaw</li>
+	  </categories> 
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+	  <thingDefs>
+		<li>Meat_Human</li>
+	  </thingDefs>
+	  <categories>
+		<li>PlantFoodRaw</li>
+	  </categories> 
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+  
+  <!-- Kibble -->
+  <RecipeDef>
+    <defName>CAN_MakeCannibalKibble</defName>
+    <label>make cannibal kibble</label>
+    <description>Make animal kibble by combining raw human and plants.</description>
+    <jobString>Making cannibal kibble.</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Meat_Human</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+          <thingDefs>
+            <li>Hay</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <CAN_CannibalKibble>50</CAN_CannibalKibble>
+    </products>
+    <fixedIngredientFilter>
+	  <thingDefs>
+		<li>Meat_Human</li>
+	  </thingDefs>
+	  <categories>
+		<li>PlantFoodRaw</li>
+	  </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+	  <thingDefs>
+		<li>Meat_Human</li>
+	  </thingDefs>
+	  <categories>
+		<li>PlantFoodRaw</li>
+	  </categories>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+	<recipeUsers>
+		<li>ButcherSpot</li>
+		<li>TableButcher</li>
+	</recipeUsers>
   </RecipeDef>
   
 </Defs>
