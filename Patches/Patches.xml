@@ -7,7 +7,7 @@
 				<xpath>/Defs/ThingDef[defName = "RGK_FueledStove"]</xpath>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>*/RecipeDef[defName="CAN_CookMealBase"]/recipeUsers</xpath>
+				<xpath>*/RecipeDef[@Name="CAN_CookMealBase"]/recipeUsers</xpath>
 				<value>
 					<li>RGK_FueledStove</li>
 					<li>GL_ElectricStove</li>
@@ -15,19 +15,19 @@
 			</li>
 		</operations>
 	</Operation>	
-	
+		
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
 				<xpath>/Defs/ThingDef[defName = "VFE_TableStoveLarge"]</xpath>
-			</li>
+			</li>		
 			<li Class="PatchOperationAdd">
-				<xpath>*/RecipeDef[defName="CAN_CookMealBase"]/recipeUsers</xpath>
+				<xpath>*/RecipeDef[@Name="CAN_CookMealBase" or @Name="CAN_CookMealBaseBulk"]/recipeUsers</xpath>
 				<value>
 					<li>VFE_TableStoveLarge</li>
 				</value>
-			</li>
+			</li>			
 		</operations>
 	</Operation>	
 	
@@ -45,4 +45,5 @@
 			</li>
 		</operations>
 	</Operation>
+	
 </Patch>
