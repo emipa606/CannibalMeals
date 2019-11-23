@@ -93,6 +93,10 @@
     </defaultIngredientFilter>
     <workSkill>Cooking</workSkill>
     <researchPrerequisite>Pemmican</researchPrerequisite>
+	<recipeUsers>
+		<li>ElectricStove</li>
+		<li>FueledStove</li>
+	</recipeUsers>
   </RecipeDef>
   
 	<!-- Simple Meal -->
