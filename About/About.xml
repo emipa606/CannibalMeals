@@ -2,6 +2,7 @@
 <ModMetaData>
 
 	<name>Cannibal Meals (continued)</name>
+	<packageId>Mlie.CannibalMeals</packageId>
 	<author>Mlie</author>
 	<url>https://github.com/emipa606/CannibalMeals</url>
 	<supportedVersions>
