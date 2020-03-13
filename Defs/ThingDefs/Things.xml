@@ -100,7 +100,7 @@
 	</ThingDef>
 
 	<!-- Simple Meal -->
-	<ThingDef ParentName="MealRottable">
+	<ThingDef ParentName="MealCooked">
     <defName>CAN_CannibalMealSimple</defName>
     <label>simple cannibal meal</label>
     <description>A simple meal quickly cooked from human meat and a few ingredients.</description>
@@ -122,7 +122,7 @@
 	</ThingDef>
 
 	<!-- Fine Meal -->
-	<ThingDef ParentName="MealRottable">
+	<ThingDef ParentName="MealCooked">
     <defName>CAN_CannibalMealFine</defName>
     <label>fine cannibal meal</label>
     <description>A complex dish assembled with care from human meat and a wide selection of ingredients.</description>
@@ -145,7 +145,7 @@
 	</ThingDef>
 
 	<!-- Lavish Meal -->
-	<ThingDef ParentName="MealRottable">
+	<ThingDef ParentName="MealCooked">
     <defName>CAN_CannibalMealLavish</defName>
     <label>lavish cannibal meal</label>
     <description>A masterpiece of the cannibal culinary arts, this meal nourishes the body, mind, and soul.</description>
