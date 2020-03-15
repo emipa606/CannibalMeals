@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModSyncNinjaData>
   <ID>8b08a139-8d92-40e2-b62a-cb740ec54ecb</ID>
   <ModName>Cannibal Meals (continued)</ModName>
-  <Version>1.1.3.0</Version>
+  <Version>1.1.6.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
