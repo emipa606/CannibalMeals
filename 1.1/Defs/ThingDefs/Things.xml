@@ -12,7 +12,7 @@
     <description>A preserved mashed mixture of human fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</description>
     <graphicData>
       <texPath>CAN_CannibalPemmican</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -80,7 +80,7 @@
     <description>A high-quality cannibal packaged meal, manufactured for use in survival situations.</description>
     <graphicData>
       <texPath>CAN_CannibalSurvivalPack</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <DeteriorationRate>0.25</DeteriorationRate>
@@ -106,7 +106,7 @@
     <description>A simple meal quickly cooked from human meat and a few ingredients.</description>
     <graphicData>
       <texPath>CAN_CannibalSimple</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>15</MarketValue>
@@ -128,7 +128,7 @@
     <description>A complex dish assembled with care from human meat and a wide selection of ingredients.</description>
     <graphicData>
       <texPath>CAN_CannibalFine</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>20</MarketValue>
@@ -151,7 +151,7 @@
     <description>A masterpiece of the cannibal culinary arts, this meal nourishes the body, mind, and soul.</description>
     <graphicData>
       <texPath>CAN_CannibalLavish</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>40</MarketValue>
