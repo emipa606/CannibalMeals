@@ -7,16 +7,22 @@
         <xpath>/Defs/ThingDef[defName = "RGK_FueledStove"]</xpath>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/RecipeDef[@Name="CAN_CookMealBase"]/recipeUsers</xpath>
+        <xpath>*/RecipeDef[@Name="CAN_CookMealBase" or @Name="CAN_InsectMealBase"]/recipeUsers</xpath>
         <value>
           <li>RGK_FueledStove</li>
-          <li>GL_ElectricStove</li>
         </value>
       </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "GL_ElectricStove"]</xpath>
+      </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/RecipeDef[Name="CAN_MakeCannibalPemmican"]/recipeUsers</xpath>
+        <xpath>*/RecipeDef[@Name="CAN_CookMealBase" or @Name="CAN_InsectMealBase"]/recipeUsers</xpath>
         <value>
-          <li>RGK_FueledStove</li>
           <li>GL_ElectricStove</li>
         </value>
       </li>
@@ -29,7 +35,7 @@
         <xpath>/Defs/ThingDef[defName = "VFE_TableStoveLarge"]</xpath>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/RecipeDef[@Name="CAN_CookMealBase" or @Name="CAN_CookMealBaseBulk"]/recipeUsers</xpath>
+        <xpath>*/RecipeDef[@Name="CAN_CookMealBase" or @Name="CAN_InsectMealBase"]/recipeUsers</xpath>
         <value>
           <li>VFE_TableStoveLarge</li>
         </value>
@@ -43,7 +49,7 @@
         <xpath>/Defs/ThingDef[defName = "VFE_TableButcherElectric"]</xpath>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/RecipeDef[defName="CAN_MakeCannibalKibble"]/recipeUsers</xpath>
+        <xpath>*/RecipeDef[defName="CAN_MakeCannibalKibble" or defName="CAN_MakeInsectKibble" ]/recipeUsers</xpath>
         <value>
           <li>VFE_TableButcherElectric</li>
         </value>

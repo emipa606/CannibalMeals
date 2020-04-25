@@ -1,40 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<success>Always</success>
-		<mods>
-			<li>[O21] Elves</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[@Name="CAN_CookMealBase"]/fixedIngredientFilter/thingDefs</xpath>
-					<value>
-						<li>Meat_O21_Alien_DarkElf</li>
-						<li>Meat_O21_Alien_MoonElf</li>
-						<li>Meat_O21_Alien_SunElf</li>
-						<li>Meat_O21_Alien_WoodElf</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[@Name="CAN_CookMealBase"]/defaultIngredientFilter/thingDefs</xpath>
-					<value>
-						<li>Meat_O21_Alien_DarkElf</li>
-						<li>Meat_O21_Alien_MoonElf</li>
-						<li>Meat_O21_Alien_SunElf</li>
-						<li>Meat_O21_Alien_WoodElf</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[@ParentName="CAN_CookMealBase"]/ingredients/li/filter/thingDefs</xpath>
-					<value>
-						<li>Meat_O21_Alien_DarkElf</li>
-						<li>Meat_O21_Alien_MoonElf</li>
-						<li>Meat_O21_Alien_SunElf</li>
-						<li>Meat_O21_Alien_WoodElf</li>
-					</value>
-				</li>
-			</operations>
-		</match>
-	</Operation>
+  <Operation Class="PatchOperationFindMod">
+    <success>Always</success>
+    <mods>
+      <li>[O21] Elves</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[@Name="CAN_CookMealBase"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>Meat_O21_Alien_DarkElf</li>
+            <li>Meat_O21_Alien_MoonElf</li>
+            <li>Meat_O21_Alien_SunElf</li>
+            <li>Meat_O21_Alien_WoodElf</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[@Name="CAN_CookMealBase"]/defaultIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>Meat_O21_Alien_DarkElf</li>
+            <li>Meat_O21_Alien_MoonElf</li>
+            <li>Meat_O21_Alien_SunElf</li>
+            <li>Meat_O21_Alien_WoodElf</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[@ParentName="CAN_CookMealBase"]/ingredients/li/filter/thingDefs</xpath>
+          <value>
+            <li>Meat_O21_Alien_DarkElf</li>
+            <li>Meat_O21_Alien_MoonElf</li>
+            <li>Meat_O21_Alien_SunElf</li>
+            <li>Meat_O21_Alien_WoodElf</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
 </Patch>

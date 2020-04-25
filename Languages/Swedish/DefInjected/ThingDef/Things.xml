@@ -1,34 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Pemmican -->
-
   <CAN_CannibalPemmican.label>kannibalisk pemmikan</CAN_CannibalPemmican.label>
   <CAN_CannibalPemmican.description>En bevarad blandning av människofett och växter. Smakar ok men inte äckligt. Håller sig väldigt länge utan att kylas.</CAN_CannibalPemmican.description>
-
-
   <!-- Survival Meal -->
-
   <CAN_CannibalMealSurvivalPack.label>kannibalisk överlevnadsmåltid</CAN_CannibalMealSurvivalPack.label>
   <CAN_CannibalMealSurvivalPack.description>en överlevnadsmåltid baserat på människokött och grönsaker.</CAN_CannibalMealSurvivalPack.description>
-
-
   <!-- Simple Meal -->
-
   <CAN_CannibalMealSimple.label>enkel kannibalisk måltid</CAN_CannibalMealSimple.label>
   <CAN_CannibalMealSimple.description>en enkel måltid baserat på människokött</CAN_CannibalMealSimple.description>
-
-
   <!-- Fine Meal -->
-
   <CAN_CannibalMealFine.label>förfinad kannibalisk måltid</CAN_CannibalMealFine.label>
   <CAN_CannibalMealFine.description>en mer komplex måltid baserat på människokött och grönsaker</CAN_CannibalMealFine.description>
-
-
   <!-- Lavish Meal -->
-
   <CAN_CannibalMealLavish.label>utsökt kannibalisk måltid</CAN_CannibalMealLavish.label>
   <CAN_CannibalMealLavish.description>en väldigt komplex måltid baserat på människokött och grönsaker.</CAN_CannibalMealLavish.description>
-
-
 </LanguageData>
