@@ -9,6 +9,34 @@
 		<li>1.0</li>
 		<li>1.1</li>
 	</supportedVersions>
+  	<incompatibleWith>
+    	<li>Mlie.CannibalMeals.VGP</li>
+    	<li>Mlie.AwfulMeals</li>
+  	</incompatibleWith>
+  	<loadAfter>
+		<li>sarg.alphaanimals</li>
+		<li>neronix17.fr.race.halforcs</li>
+		<li>neronix17.fr.race.tieflings</li>
+		<li>neronix17.fr.race.orcs</li>
+		<li>neronix17.fr.race.hobgoblins</li>
+		<li>neronix17.fr.race.gith</li>
+		<li>neronix17.fr.race.elves</li>
+		<li>neronix17.fr.race.goblins</li>
+		<li>neronix17.fr.race.kobolds</li>
+  		<li>Jecrell908.LordHofHtheHRimsHUHDwarves</li>
+  		<li>Jecrell112.LordHofHtheHRimsHUHElves</li>
+  		<li>Jecrell172.LordHofHtheHRimsHUHHobbits</li>
+	  	<li>Bichang.FerianRace</li>
+	  	<li>FilthyPeasant.Races.TreePeople</li>
+  		<li>xen.races.argo</li>
+  		<li>dianawinters.Orassans</li>
+  		<li>dianawinters.OrassansLite</li>
+	  	<li>zerithos.NiHal</li>
+  		<li>zerithos.NiHalUL</li>
+	  	<li>goudaquiche.lighterthanfast</li>
+  		<li>Juvia.StarTrekRaces</li>
+		<li>Solaris.FurnitureBase</li>
+  	</loadAfter>
 	<description>Adds cannibal versions of all base meals.
 
 General	
@@ -19,8 +47,6 @@ General
 Compatibilities
  • Compatible with existant saves and other mods.
  
- Note: Do not use this mod and my other VGP-enabled mod at the same time
-
 </description>
 
 </ModMetaData>
