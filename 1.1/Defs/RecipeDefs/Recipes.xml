@@ -69,8 +69,48 @@
       </disallowedThingDefs>
     </defaultIngredientFilter>
   </RecipeDef>
+  <!-- Cooking Bases -->
+	<RecipeDef Name="CAN_CannibalCampfire" ParentName="CAN_CookMealBase" Abstract="True">
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
+  	<RecipeDef Name="CAN_CannibalStove" ParentName="CAN_CookMealBase" Abstract="True">
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+  </RecipeDef>
+  	<RecipeDef Name="CAN_CannibalButcher" ParentName="CAN_CookMealBase" Abstract="True">
+    <recipeUsers>
+      <li>ButcherSpot</li>
+      <li>TableButcher</li>
+    </recipeUsers>
+  </RecipeDef>
+  	<RecipeDef Name="CAN_InsectCampfire" ParentName="CAN_InsectMealBase" Abstract="True">
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
+  	<RecipeDef Name="CAN_InsectStove" ParentName="CAN_InsectMealBase" Abstract="True">
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+  </RecipeDef>
+  	<RecipeDef Name="CAN_InsectButcher" ParentName="CAN_InsectMealBase" Abstract="True">
+    <recipeUsers>
+      <li>ButcherSpot</li>
+      <li>TableButcher</li>
+    </recipeUsers>
+  </RecipeDef>
+  
   <!-- Cannibal Meals -->
-  <RecipeDef Name="CAN_CannibalSimpleMeal" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_CannibalSimpleMeal" ParentName="CAN_CannibalCampfire">
     <defName>CAN_CookCannibalMealSimple</defName>
     <label>cook simple cannibal meal</label>
     <description>Cooks a straightforward meal from human meat.</description>
@@ -89,13 +129,8 @@
       <CAN_CannibalMealSimple>1</CAN_CannibalMealSimple>
     </products>
     <workAmount>300</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-      <li>Campfire</li>
-    </recipeUsers>
   </RecipeDef>
-  <RecipeDef Name="CAN_CannibalFineMeal" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_CannibalFineMeal" ParentName="CAN_CannibalStove">
     <defName>CAN_CookCannibalMealFine</defName>
     <label>cook fine cannibal meal</label>
     <description>Cooks a somewhat complex cannibal meal from a combination of human meat and organic ingredients.</description>
@@ -123,15 +158,11 @@
       <CAN_CannibalMealFine>1</CAN_CannibalMealFine>
     </products>
     <workAmount>480</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>6</Cooking>
     </skillRequirements>
   </RecipeDef>
-  <RecipeDef Name="CAN_CannibalLavishMeal" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_CannibalLavishMeal" ParentName="CAN_CannibalStove">
     <defName>CAN_CookCannibalMealLavish</defName>
     <label>cook lavish cannibal meal</label>
     <description>Cooks a very complex cannibal meal from a combination of human meat and organic ingredients. Much of the ingredients are wasted.</description>
@@ -159,15 +190,11 @@
       <CAN_CannibalMealLavish>1</CAN_CannibalMealLavish>
     </products>
     <workAmount>840</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>8</Cooking>
     </skillRequirements>
   </RecipeDef>
-  <RecipeDef Name="CAN_CannibalSurvivalMeal" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_CannibalSurvivalMeal" ParentName="CAN_CannibalStove">
     <defName>CAN_CookCannibalMealSurvival</defName>
     <label>cook packaged survival cannibal meal</label>
     <description>Cooks a packaged survival cannibal meal from a combination of human meat and organic ingredients. Much of the ingredients are wasted.</description>
@@ -195,16 +222,12 @@
       <CAN_CannibalMealSurvivalPack>1</CAN_CannibalMealSurvivalPack>
     </products>
     <workAmount>480</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>8</Cooking>
     </skillRequirements>
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
   </RecipeDef>
-  <RecipeDef Name="CAN_MakeCannibalPemmican" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_MakeCannibalPemmican" ParentName="CAN_CannibalCampfire">
     <defName>CAN_MakeCannibalPemmican</defName>
     <label>Make cannibal pemmican</label>
     <description>Make cannibal pemmican, a preserved combination of human meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</description>
@@ -233,13 +256,8 @@
     </products>
     <researchPrerequisite>Pemmican</researchPrerequisite>
     <workAmount>720</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-      <li>Campfire</li>
-    </recipeUsers>
   </RecipeDef>
-  <RecipeDef Name="CAN_MakeCannibalKibble" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_MakeCannibalKibble" ParentName="CAN_CannibalButcher">
     <defName>CAN_MakeCannibalKibble</defName>
     <label>make cannibal kibble</label>
     <description>Make animal kibble by combining raw human and plants.</description>
@@ -274,13 +292,9 @@
       <CAN_CannibalKibble>50</CAN_CannibalKibble>
     </products>
     <workAmount>450</workAmount>
-    <recipeUsers>
-      <li>ButcherSpot</li>
-      <li>TableButcher</li>
-    </recipeUsers>
   </RecipeDef>
   <!-- Cannibal Meals x4 -->
-  <RecipeDef Name="CAN_CookCannibalMealSimpleBulk" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_CookCannibalMealSimpleBulk" ParentName="CAN_CannibalCampfire">
     <defName>CAN_CookCannibalMealSimpleBulk</defName>
     <label>cook simple cannibal meal x4</label>
     <description>Cook 4 straightforward cannibal meals from human meat.</description>
@@ -299,13 +313,8 @@
       <CAN_CannibalMealSimple>4</CAN_CannibalMealSimple>
     </products>
     <workAmount>1200</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-      <li>Campfire</li>
-    </recipeUsers>
   </RecipeDef>
-  <RecipeDef Name="CAN_CookCannibalMealFineBulk" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_CookCannibalMealFineBulk" ParentName="CAN_CannibalStove">
     <defName>CAN_CookCannibalMealFineBulk</defName>
     <label>cook fine cannibal meal x4</label>
     <description>Cook 4 somewhat complex cannibal meals from a combination of human meat and plant ingredients.</description>
@@ -333,15 +342,11 @@
       <CAN_CannibalMealFine>4</CAN_CannibalMealFine>
     </products>
     <workAmount>1800</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>6</Cooking>
     </skillRequirements>
   </RecipeDef>
-  <RecipeDef Name="CAN_CookMealCannibalLavishBulk" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_CookMealCannibalLavishBulk" ParentName="CAN_CannibalStove">
     <defName>CAN_CookMealCannibalLavishBulk</defName>
     <label>cook lavish cannibal meal x4</label>
     <description>Cook 4 very complex cannibal meals from a combination of human meat and plant ingredients. Much of the ingredients are wasted.</description>
@@ -369,15 +374,11 @@
       <CAN_CannibalMealLavish>4</CAN_CannibalMealLavish>
     </products>
     <workAmount>3240</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>8</Cooking>
     </skillRequirements>
   </RecipeDef>
-  <RecipeDef Name="CAN_CookCannibalMealSurvivalBulk" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_CookCannibalMealSurvivalBulk" ParentName="CAN_CannibalStove">
     <defName>CAN_CookCannibalMealSurvivalBulk</defName>
     <label>cook packaged survival cannibal meal x4</label>
     <description>Prepare 4 packaged survival cannibal meals from a combination of human meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
@@ -405,16 +406,12 @@
       <CAN_CannibalMealSurvivalPack>4</CAN_CannibalMealSurvivalPack>
     </products>
     <workAmount>1800</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>8</Cooking>
     </skillRequirements>
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
   </RecipeDef>
-  <RecipeDef Name="CAN_MakeCannibalPemmicanBulk" ParentName="CAN_CookMealBase">
+  <RecipeDef Name="CAN_MakeCannibalPemmicanBulk" ParentName="CAN_CannibalCampfire">
     <defName>CAN_MakeCannibalPemmicanBulk</defName>
     <label>Make cannibal pemmican x4</label>
     <description>Make bulk cannibal pemmican, a preserved combination of human meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</description>
@@ -443,14 +440,9 @@
     </products>
     <researchPrerequisite>Pemmican</researchPrerequisite>
     <workAmount>2820</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-      <li>Campfire</li>
-    </recipeUsers>
   </RecipeDef>
   <!-- Insect Meals -->
-  <RecipeDef Name="CAN_InsectSimpleMeal" ParentName="CAN_InsectMealBase">
+  <RecipeDef Name="CAN_InsectSimpleMeal" ParentName="CAN_InsectCampfire">
     <defName>CAN_CookInsectSimpleMeal</defName>
     <label>cook simple insect meal</label>
     <description>Cooks a straightforward meal from insect meat.</description>
@@ -469,13 +461,8 @@
       <CAN_InsectMealSimple>1</CAN_InsectMealSimple>
     </products>
     <workAmount>300</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-      <li>Campfire</li>
-    </recipeUsers>
   </RecipeDef>
-  <RecipeDef Name="CAN_InsectFineMeal" ParentName="CAN_InsectMealBase">
+  <RecipeDef Name="CAN_InsectFineMeal" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectFineMeal</defName>
     <label>cook fine insect meal</label>
     <description>Cooks a somewhat complex insect meal from a combination of insect meat and organic ingredients.</description>
@@ -503,15 +490,11 @@
       <CAN_InsectMealFine>1</CAN_InsectMealFine>
     </products>
     <workAmount>480</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>6</Cooking>
     </skillRequirements>
   </RecipeDef>
-  <RecipeDef Name="CAN_InsectLavishMeal" ParentName="CAN_InsectMealBase">
+  <RecipeDef Name="CAN_InsectLavishMeal" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectLavishMeal</defName>
     <label>cook lavish insect meal</label>
     <description>Cooks a very complex insect meal from a combination of insect meat and organic ingredients. Much of the ingredients are wasted.</description>
@@ -539,15 +522,11 @@
       <CAN_InsectMealLavish>1</CAN_InsectMealLavish>
     </products>
     <workAmount>840</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>8</Cooking>
     </skillRequirements>
   </RecipeDef>
-  <RecipeDef Name="CAN_InsectSurvivalMeal" ParentName="CAN_InsectMealBase">
+  <RecipeDef Name="CAN_InsectSurvivalMeal" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectSurvivalMeal</defName>
     <label>cook survival insect meal</label>
     <description>Cooks a packaged survival insect meal from a combination of insect meat and organic ingredients. Much of the ingredients are wasted.</description>
@@ -575,16 +554,12 @@
       <CAN_InsectMealSurvivalPack>1</CAN_InsectMealSurvivalPack>
     </products>
     <workAmount>480</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>8</Cooking>
     </skillRequirements>
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
   </RecipeDef>
-  <RecipeDef Name="CAN_MakeInsectPemmican" ParentName="CAN_InsectMealBase">
+  <RecipeDef Name="CAN_MakeInsectPemmican" ParentName="CAN_InsectCampfire">
     <defName>CAN_MakeInsectPemmican</defName>
     <label>Make insect pemmican</label>
     <description>Make insect pemmican, a preserved combination of insect meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</description>
@@ -613,13 +588,8 @@
     </products>
     <researchPrerequisite>Pemmican</researchPrerequisite>
     <workAmount>720</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-      <li>Campfire</li>
-    </recipeUsers>
   </RecipeDef>
-  <RecipeDef Name="CAN_MakeInsectKibble" ParentName="CAN_InsectMealBase">
+  <RecipeDef Name="CAN_MakeInsectKibble" ParentName="CAN_InsectButcher">
     <defName>CAN_MakeInsectKibble</defName>
     <label>Make insect kibble</label>
     <description>Make animal kibble by combining raw insect and plants.</description>
@@ -654,12 +624,9 @@
       <CAN_InsectKibble>50</CAN_InsectKibble>
     </products>
     <workAmount>450</workAmount>
-    <recipeUsers>
-      <li>ButcherSpot</li>
-      <li>TableButcher</li>
-    </recipeUsers>
   </RecipeDef>
-  <RecipeDef Name="CAN_CookInsectSimpleMealBulk" ParentName="CAN_InsectMealBase">
+  <!-- Insect Meals x4 -->
+  <RecipeDef Name="CAN_CookInsectSimpleMealBulk" ParentName="CAN_InsectCampfire">
     <defName>CAN_CookInsectSimpleMealBulk</defName>
     <label>cook simple insect meal x4</label>
     <description>Cooks a straightforward meal from insect meat.</description>
@@ -678,13 +645,8 @@
       <CAN_InsectMealSimple>4</CAN_InsectMealSimple>
     </products>
     <workAmount>1200</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-      <li>Campfire</li>
-    </recipeUsers>
   </RecipeDef>
-  <RecipeDef Name="CAN_CookInsectFineMealBulk" ParentName="CAN_InsectMealBase">
+  <RecipeDef Name="CAN_CookInsectFineMealBulk" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectFineMealBulk</defName>
     <label>cook fine insect meal x4</label>
     <description>Cooks a somewhat complex insect meal from a combination of insect meat and organic ingredients.</description>
@@ -712,15 +674,11 @@
       <CAN_InsectMealFine>4</CAN_InsectMealFine>
     </products>
     <workAmount>1800</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>6</Cooking>
     </skillRequirements>
   </RecipeDef>
-  <RecipeDef Name="CAN_CookInsectLavishMealBulk" ParentName="CAN_InsectMealBase">
+  <RecipeDef Name="CAN_CookInsectLavishMealBulk" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectLavishMealBulk</defName>
     <label>cook lavish insect meal x4</label>
     <description>Cooks a very complex insect meal from a combination of insect meat and organic ingredients. Much of the ingredients are wasted.</description>
@@ -748,15 +706,11 @@
       <CAN_InsectMealLavish>4</CAN_InsectMealLavish>
     </products>
     <workAmount>3240</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>8</Cooking>
     </skillRequirements>
   </RecipeDef>
-  <RecipeDef Name="CAN_CookInsectSurvivalMealBulk" ParentName="CAN_InsectMealBase">
+  <RecipeDef Name="CAN_CookInsectSurvivalMealBulk" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectSurvivalMealBulk</defName>
     <label>cook survival insect meal x4</label>
     <description>Cooks a packaged survival insect meal from a combination of insect meat and organic ingredients. Much of the ingredients are wasted.</description>
@@ -784,16 +738,12 @@
       <CAN_InsectMealSurvivalPack>4</CAN_InsectMealSurvivalPack>
     </products>
     <workAmount>1800</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-    </recipeUsers>
     <skillRequirements>
       <Cooking>8</Cooking>
     </skillRequirements>
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
   </RecipeDef>
-  <RecipeDef Name="CAN_MakeInsectPemmicanBulk" ParentName="CAN_InsectMealBase">
+  <RecipeDef Name="CAN_MakeInsectPemmicanBulk" ParentName="CAN_InsectCampfire">
     <defName>CAN_MakeInsectPemmicanBulk</defName>
     <label>Make insect pemmican x4</label>
     <description>Make insect pemmican, a preserved combination of insect meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</description>
@@ -822,10 +772,5 @@
     </products>
     <researchPrerequisite>Pemmican</researchPrerequisite>
     <workAmount>2820</workAmount>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
-      <li>Campfire</li>
-    </recipeUsers>
   </RecipeDef>
 </Defs>
