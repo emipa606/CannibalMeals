@@ -20,7 +20,7 @@
           </value>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/RecipeDef[@ParentName="CAN_CookMealBase"]/ingredients/li/filter/thingDefs</xpath>
+          <xpath>/Defs/RecipeDef[@ParentName="CAN_CannibalCampfire" or @ParentName="CAN_CannibalStove" or @ParentName="CAN_CannibalButcher"]/ingredients/li/filter/thingDefs</xpath>
           <value>
             <li>Meat_O21_Alien_Orc</li>
           </value>
