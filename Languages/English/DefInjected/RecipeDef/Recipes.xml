@@ -1,29 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- Pemmican -->
-  <CAN_MakeCannibalPemmican.label>Make cannibal pemmican</CAN_MakeCannibalPemmican.label>
-  <CAN_MakeCannibalPemmican.description>Make cannibal pemmican, a preserved combination of human meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</CAN_MakeCannibalPemmican.description>
-  <CAN_MakeCannibalPemmican.jobString>Making pemmican.</CAN_MakeCannibalPemmican.jobString>
-  <CAN_MakeCannibalPemmicanCampfire.label>Make cannibal pemmican</CAN_MakeCannibalPemmicanCampfire.label>
-  <CAN_MakeCannibalPemmicanCampfire.description>Make cannibal pemmican, a preserved combination of human meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</CAN_MakeCannibalPemmicanCampfire.description>
-  <CAN_MakeCannibalPemmicanCampfire.jobString>Making pemmican.</CAN_MakeCannibalPemmicanCampfire.jobString>
+  <!--<CAN_MakeCannibalPemmican.label>Make cannibal pemmican</CAN_MakeCannibalPemmican.label>-->
+  <!--<CAN_MakeCannibalPemmican.description>Make cannibal pemmican, a preserved combination of human meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</CAN_MakeCannibalPemmican.description>-->
+  <!--<CAN_MakeCannibalPemmican.jobString>Making pemmican.</CAN_MakeCannibalPemmican.jobString>-->
+  <!--<CAN_MakeCannibalPemmicanCampfire.label>Make cannibal pemmican</CAN_MakeCannibalPemmicanCampfire.label>-->
+  <!--<CAN_MakeCannibalPemmicanCampfire.description>Make cannibal pemmican, a preserved combination of human meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</CAN_MakeCannibalPemmicanCampfire.description>-->
+  <!--<CAN_MakeCannibalPemmicanCampfire.jobString>Making pemmican.</CAN_MakeCannibalPemmicanCampfire.jobString>-->
   <!-- Simple Meal -->
-  <CAN_CookCannibalMealSimple.label>cook simple cannibal meal</CAN_CookCannibalMealSimple.label>
-  <CAN_CookCannibalMealSimple.description>Cooks a straightforward meal from human meat.</CAN_CookCannibalMealSimple.description>
-  <CAN_CookCannibalMealSimple.jobString>Cooking simple meal.</CAN_CookCannibalMealSimple.jobString>
-  <CAN_CookCannibalMealSimpleCampfire.label>cook simple cannibal meal</CAN_CookCannibalMealSimpleCampfire.label>
-  <CAN_CookCannibalMealSimpleCampfire.description>Cooks a straightforward meal from human meat.</CAN_CookCannibalMealSimpleCampfire.description>
-  <CAN_CookCannibalMealSimpleCampfire.jobString>Cooking simple meal.</CAN_CookCannibalMealSimpleCampfire.jobString>
+  <!--<CAN_CookCannibalMealSimple.label>cook simple cannibal meal</CAN_CookCannibalMealSimple.label>-->
+  <!--<CAN_CookCannibalMealSimple.description>Cooks a straightforward meal from human meat.</CAN_CookCannibalMealSimple.description>-->
+  <!--<CAN_CookCannibalMealSimple.jobString>Cooking simple meal.</CAN_CookCannibalMealSimple.jobString>-->
+  <!--<CAN_CookCannibalMealSimpleCampfire.label>cook simple cannibal meal</CAN_CookCannibalMealSimpleCampfire.label>-->
+  <!--<CAN_CookCannibalMealSimpleCampfire.description>Cooks a straightforward meal from human meat.</CAN_CookCannibalMealSimpleCampfire.description>-->
+  <!--<CAN_CookCannibalMealSimpleCampfire.jobString>Cooking simple meal.</CAN_CookCannibalMealSimpleCampfire.jobString>-->
   <!-- Fine Meal -->
-  <CAN_CookCannibalMealFine.label>cook fine cannibal meal</CAN_CookCannibalMealFine.label>
-  <CAN_CookCannibalMealFine.description>Cooks a somewhat complex cannibal meal from a combination of human meat and organic ingredients.</CAN_CookCannibalMealFine.description>
-  <CAN_CookCannibalMealFine.jobString>Cooking fine meal.</CAN_CookCannibalMealFine.jobString>
+  <!--<CAN_CookCannibalMealFine.label>cook fine cannibal meal</CAN_CookCannibalMealFine.label>-->
+  <!--<CAN_CookCannibalMealFine.description>Cooks a somewhat complex cannibal meal from a combination of human meat and organic ingredients.</CAN_CookCannibalMealFine.description>-->
+  <!--<CAN_CookCannibalMealFine.jobString>Cooking fine meal.</CAN_CookCannibalMealFine.jobString>-->
   <!-- Lavish Meal -->
-  <CAN_CookCannibalMealLavish.label>cook lavish cannibal meal</CAN_CookCannibalMealLavish.label>
-  <CAN_CookCannibalMealLavish.description>Cooks a very complex cannibal meal from a combination of human meat and organic ingredients. Much of the ingredients are wasted.</CAN_CookCannibalMealLavish.description>
-  <CAN_CookCannibalMealLavish.jobString>Cooking lavish meal.</CAN_CookCannibalMealLavish.jobString>
+  <!--<CAN_CookCannibalMealLavish.label>cook lavish cannibal meal</CAN_CookCannibalMealLavish.label>-->
+  <!--<CAN_CookCannibalMealLavish.description>Cooks a very complex cannibal meal from a combination of human meat and organic ingredients. Much of the ingredients are wasted.</CAN_CookCannibalMealLavish.description>-->
+  <!--<CAN_CookCannibalMealLavish.jobString>Cooking lavish meal.</CAN_CookCannibalMealLavish.jobString>-->
   <!-- Survival Meal -->
-  <CAN_CookCannibalMealSurvival.label>cook packaged survival cannibal meal</CAN_CookCannibalMealSurvival.label>
-  <CAN_CookCannibalMealSurvival.description>Cooks a packaged survival cannibal meal from a combination of human meat and organic ingredients. Much of the ingredients are wasted.</CAN_CookCannibalMealSurvival.description>
-  <CAN_CookCannibalMealSurvival.jobString>Cooking survival meal.</CAN_CookCannibalMealSurvival.jobString>
+  <!--<CAN_CookCannibalMealSurvival.label>cook packaged survival cannibal meal</CAN_CookCannibalMealSurvival.label>-->
+  <!--<CAN_CookCannibalMealSurvival.description>Cooks a packaged survival cannibal meal from a combination of human meat and organic ingredients. Much of the ingredients are wasted.</CAN_CookCannibalMealSurvival.description>-->
+  <!--<CAN_CookCannibalMealSurvival.jobString>Cooking survival meal.</CAN_CookCannibalMealSurvival.jobString>-->
+
 </LanguageData>

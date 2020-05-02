@@ -70,45 +70,44 @@
     </defaultIngredientFilter>
   </RecipeDef>
   <!-- Cooking Bases -->
-	<RecipeDef Name="CAN_CannibalCampfire" ParentName="CAN_CookMealBase" Abstract="True">
+  <RecipeDef Name="CAN_CannibalCampfire" ParentName="CAN_CookMealBase" Abstract="True">
     <recipeUsers>
       <li>ElectricStove</li>
       <li>FueledStove</li>
       <li>Campfire</li>
     </recipeUsers>
   </RecipeDef>
-  	<RecipeDef Name="CAN_CannibalStove" ParentName="CAN_CookMealBase" Abstract="True">
+  <RecipeDef Name="CAN_CannibalStove" ParentName="CAN_CookMealBase" Abstract="True">
     <recipeUsers>
       <li>ElectricStove</li>
       <li>FueledStove</li>
     </recipeUsers>
   </RecipeDef>
-  	<RecipeDef Name="CAN_CannibalButcher" ParentName="CAN_CookMealBase" Abstract="True">
+  <RecipeDef Name="CAN_CannibalButcher" ParentName="CAN_CookMealBase" Abstract="True">
     <recipeUsers>
       <li>ButcherSpot</li>
       <li>TableButcher</li>
     </recipeUsers>
   </RecipeDef>
-  	<RecipeDef Name="CAN_InsectCampfire" ParentName="CAN_InsectMealBase" Abstract="True">
+  <RecipeDef Name="CAN_InsectCampfire" ParentName="CAN_InsectMealBase" Abstract="True">
     <recipeUsers>
       <li>ElectricStove</li>
       <li>FueledStove</li>
       <li>Campfire</li>
     </recipeUsers>
   </RecipeDef>
-  	<RecipeDef Name="CAN_InsectStove" ParentName="CAN_InsectMealBase" Abstract="True">
+  <RecipeDef Name="CAN_InsectStove" ParentName="CAN_InsectMealBase" Abstract="True">
     <recipeUsers>
       <li>ElectricStove</li>
       <li>FueledStove</li>
     </recipeUsers>
   </RecipeDef>
-  	<RecipeDef Name="CAN_InsectButcher" ParentName="CAN_InsectMealBase" Abstract="True">
+  <RecipeDef Name="CAN_InsectButcher" ParentName="CAN_InsectMealBase" Abstract="True">
     <recipeUsers>
       <li>ButcherSpot</li>
       <li>TableButcher</li>
     </recipeUsers>
   </RecipeDef>
-  
   <!-- Cannibal Meals -->
   <RecipeDef Name="CAN_CannibalSimpleMeal" ParentName="CAN_CannibalCampfire">
     <defName>CAN_CookCannibalMealSimple</defName>
