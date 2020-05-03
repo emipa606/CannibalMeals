@@ -28,4 +28,18 @@
       </li>
     </operations>
   </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "ElectricTableButcher"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef[@Name="CAN_CannibalButcher" or @Name="CAN_InsectButcher"]/recipeUsers</xpath>
+        <value>
+          <li>ElectricTableButcher</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
 </Patch>
