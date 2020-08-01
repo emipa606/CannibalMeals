@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "GL_Bonfire"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef[@Name="CAN_CannibalCampfire" or @Name="CAN_CannibalStove" or @Name="CAN_InsectCampfire" or @Name="CAN_InsectStove"]/recipeUsers</xpath>
+        <value>
+          <li>GL_Bonfire</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

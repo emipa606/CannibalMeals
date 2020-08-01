@@ -7,6 +7,7 @@
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <incompatibleWith>
     <li>Mlie.CannibalMeals.VGP</li>
@@ -40,15 +41,15 @@
   <description>Adds cannibal and insect versions of all base meals.
 
 General	
- • Add these recipes/meals: Pemmican, Kibble, Simple Meal, Fine Meal, Lavish Meal, Packaged Survival Meal
- • Has added texture on the original textures to indicate cannibal-version.
- • Stats and nutritions are the same as the original meals
+ � Add these recipes/meals: Pemmican, Kibble, Simple Meal, Fine Meal, Lavish Meal, Packaged Survival Meal
+ � Has added texture on the original textures to indicate cannibal-version.
+ � Stats and nutritions are the same as the original meals
 
 Compatibilities
- • Compatible with existant saves and other mods.
+ � Compatible with existant saves and other mods.
  
 Contributors
- • Cerrendel
+ � Cerrendel
 
 </description>
 </ModMetaData>
