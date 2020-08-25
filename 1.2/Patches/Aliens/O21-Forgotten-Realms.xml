@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationFindMod">
     <success>Always</success>
     <mods>
-      <li>[O21] Elves</li>
+      <li>[O21] Forgotten Realms</li>
     </mods>
     <match Class="PatchOperationSequence">
       <operations>
@@ -14,6 +14,13 @@
             <li>Meat_O21_Alien_MoonElf</li>
             <li>Meat_O21_Alien_SunElf</li>
             <li>Meat_O21_Alien_WoodElf</li>
+            <li>Meat_O21_Alien_Gith</li>
+            <li>Meat_O21_Alien_Goblin</li>
+            <li>Meat_O21_Alien_HalfOrc</li>
+            <li>Meat_O21_Alien_Hobgoblin</li>
+            <li>Meat_O21_Alien_Kobold</li>
+            <li>Meat_O21_Alien_Orc</li>
+            <li>Meat_O21_Alien_Tiefling</li>
           </value>
         </li>
         <li Class="PatchOperationAdd">
@@ -23,6 +30,13 @@
             <li>Meat_O21_Alien_MoonElf</li>
             <li>Meat_O21_Alien_SunElf</li>
             <li>Meat_O21_Alien_WoodElf</li>
+            <li>Meat_O21_Alien_Gith</li>
+            <li>Meat_O21_Alien_Goblin</li>
+            <li>Meat_O21_Alien_HalfOrc</li>
+            <li>Meat_O21_Alien_Hobgoblin</li>
+            <li>Meat_O21_Alien_Kobold</li>
+            <li>Meat_O21_Alien_Orc</li>
+            <li>Meat_O21_Alien_Tiefling</li>
           </value>
         </li>
         <li Class="PatchOperationAdd">
@@ -32,6 +46,13 @@
             <li>Meat_O21_Alien_MoonElf</li>
             <li>Meat_O21_Alien_SunElf</li>
             <li>Meat_O21_Alien_WoodElf</li>
+            <li>Meat_O21_Alien_Gith</li>
+            <li>Meat_O21_Alien_Goblin</li>
+            <li>Meat_O21_Alien_HalfOrc</li>
+            <li>Meat_O21_Alien_Hobgoblin</li>
+            <li>Meat_O21_Alien_Kobold</li>
+            <li>Meat_O21_Alien_Orc</li>
+            <li>Meat_O21_Alien_Tiefling</li>
           </value>
         </li>
       </operations>
