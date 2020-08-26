@@ -10,35 +10,9 @@
     <li>1.2</li>
   </supportedVersions>
   <incompatibleWith>
-    <li>Mlie.CannibalMeals.VGP</li>
     <li>Mlie.AwfulMeals</li>
   </incompatibleWith>
-  <loadAfter>
-    <li>sarg.alphaanimals</li>
-    <li>neronix17.fr.race.halforcs</li>
-    <li>neronix17.fr.race.tieflings</li>
-    <li>neronix17.fr.race.orcs</li>
-    <li>neronix17.fr.race.hobgoblins</li>
-    <li>neronix17.fr.race.gith</li>
-    <li>neronix17.fr.race.elves</li>
-    <li>neronix17.fr.race.goblins</li>
-    <li>neronix17.fr.race.kobolds</li>
-    <li>neronix17.fr.compilation</li>
-    <li>Jecrell908.LordHofHtheHRimsHUHDwarves</li>
-    <li>Jecrell112.LordHofHtheHRimsHUHElves</li>
-    <li>Jecrell172.LordHofHtheHRimsHUHHobbits</li>
-    <li>Bichang.FerianRace</li>
-    <li>FilthyPeasant.Races.TreePeople</li>
-    <li>xen.races.argo</li>
-    <li>dianawinters.Orassans</li>
-    <li>dianawinters.OrassansLite</li>
-    <li>zerithos.NiHal</li>
-    <li>zerithos.NiHalUL</li>
-    <li>goudaquiche.lighterthanfast</li>
-    <li>Juvia.StarTrekRaces</li>
-    <li>Solaris.FurnitureBase</li>
-    <li>Heymyteamrules.BeastManTribes</li>
-  </loadAfter>
+  <loadAfter />
   <description>Adds cannibal and insect versions of all base meals.
 
 General	
