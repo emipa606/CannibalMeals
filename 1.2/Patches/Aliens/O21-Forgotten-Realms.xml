@@ -21,6 +21,7 @@
             <li>Meat_O21_Alien_Kobold</li>
             <li>Meat_O21_Alien_Orc</li>
             <li>Meat_O21_Alien_Tiefling</li>
+            <li>Meat_O21_Alien_Illithid</li>
           </value>
         </li>
         <li Class="PatchOperationAdd">
@@ -37,6 +38,7 @@
             <li>Meat_O21_Alien_Kobold</li>
             <li>Meat_O21_Alien_Orc</li>
             <li>Meat_O21_Alien_Tiefling</li>
+            <li>Meat_O21_Alien_Illithid</li>
           </value>
         </li>
         <li Class="PatchOperationAdd">
@@ -53,6 +55,7 @@
             <li>Meat_O21_Alien_Kobold</li>
             <li>Meat_O21_Alien_Orc</li>
             <li>Meat_O21_Alien_Tiefling</li>
+            <li>Meat_O21_Alien_Illithid</li>
           </value>
         </li>
       </operations>
