@@ -13,18 +13,57 @@
     <li>Mlie.AwfulMeals</li>
   </incompatibleWith>
   <loadAfter />
-  <description>Adds cannibal and insect versions of all base meals.
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  
+Adds cannibal and insect versions of all base meals.
 
 General	
- � Add these recipes/meals: Pemmican, Kibble, Simple Meal, Fine Meal, Lavish Meal, Packaged Survival Meal
- � Has added texture on the original textures to indicate cannibal-version.
- � Stats and nutritions are the same as the original meals
+[list]
+[*] Add these recipes/meals: Pemmican, Kibble, Simple Meal, Fine Meal, Lavish Meal, Packaged Survival Meal
+[*] Has added texture on the original textures to indicate cannibal-version.
+[*] Stats and nutritions are the same as the original meals
+[/list]
 
 Compatibilities
- � Compatible with existant saves and other mods.
- 
-Contributors
- � Cerrendel
+- Compatible with existent saves and other mods.
 
+Contributors
+- Cerrendel
+
+Alien races supported (Thanks to @Cerrendel)
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=959780399]Argonians of Blackmarsh[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1611790118]Ferian Race[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465072243]Fantasy Goblins[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1400238872]Lord of the Rims - Dwarves[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1400234784]Lord of the Rims - Elves[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1400227853]Lord of the Rims - Hobbits[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1541567184]Ni'Hal[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1548578482]Ni'Hal - No Drakes[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1541519487]Orassans[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1572211791]Orassans Lite[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1403998409]Tree People[/url] 
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1134410589]Orc Playable Race[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1119191638]Beast Man Tribes[/url]
+[/list]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/CannibalMeals][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657][img]https://i.imgur.com/kNldlMg.png[/img][/url]
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
 </description>
 </ModMetaData>
