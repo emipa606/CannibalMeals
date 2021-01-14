@@ -18,7 +18,16 @@
         <li Class="PatchOperationAdd">
           <xpath>Defs</xpath>
           <value>
-            <AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef Name="Mlie_AchievementParent" Abstract="true">
+              <bgtexPath>Achievements/AchievmentsBG</bgtexPath>
+              <tab>Mlie_Continued</tab>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
               <defName>CAN_WhenInNeed</defName>
               <label>When in need</label>
               <description>Obtain 20 simple cannibal meals</description>
@@ -28,14 +37,13 @@
               </tracker>
               <texPath>Achievements/CannibalSimple</texPath>
               <points>10</points>
-              <tab>Mlie_Continued</tab>
             </AchievementsExpanded.AchievementDef>
           </value>
         </li>
         <li Class="PatchOperationAdd">
           <xpath>Defs</xpath>
           <value>
-            <AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
               <defName>CAN_CannibalCook</defName>
               <label>Cannibal Cook</label>
               <description>Obtain 20 fine cannibal meals</description>
@@ -45,14 +53,13 @@
               </tracker>
               <texPath>Achievements/CannibalFine</texPath>
               <points>15</points>
-              <tab>Mlie_Continued</tab>
             </AchievementsExpanded.AchievementDef>
           </value>
         </li>
         <li Class="PatchOperationAdd">
           <xpath>Defs</xpath>
           <value>
-            <AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
               <defName>CAN_HannibalCook</defName>
               <label>Hannibal Cook</label>
               <description>Obtain 20 lavish cannibal meals</description>
@@ -62,7 +69,6 @@
               </tracker>
               <texPath>Achievements/CannibalLavish</texPath>
               <points>25</points>
-              <tab>Mlie_Continued</tab>
             </AchievementsExpanded.AchievementDef>
           </value>
         </li>
