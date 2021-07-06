@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <success>Always</success>
+    <mods>
+      <li>[O21] Forgotten Realms</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[@Name="CAN_CookMealBase"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>Meat_O21_Alien_DarkElf</li>
+            <li>Meat_O21_Alien_MoonElf</li>
+            <li>Meat_O21_Alien_SunElf</li>
+            <li>Meat_O21_Alien_WoodElf</li>
+            <li>Meat_O21_Alien_Gith</li>
+            <li>Meat_O21_Alien_Goblin</li>
+            <li>Meat_O21_Alien_HalfOrc</li>
+            <li>Meat_O21_Alien_Hobgoblin</li>
+            <li>Meat_O21_Alien_Kobold</li>
+            <li>Meat_O21_Alien_Orc</li>
+            <li>Meat_O21_Alien_Tiefling</li>
+            <li>Meat_O21_Alien_Illithid</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[@Name="CAN_CookMealBase"]/defaultIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>Meat_O21_Alien_DarkElf</li>
+            <li>Meat_O21_Alien_MoonElf</li>
+            <li>Meat_O21_Alien_SunElf</li>
+            <li>Meat_O21_Alien_WoodElf</li>
+            <li>Meat_O21_Alien_Gith</li>
+            <li>Meat_O21_Alien_Goblin</li>
+            <li>Meat_O21_Alien_HalfOrc</li>
+            <li>Meat_O21_Alien_Hobgoblin</li>
+            <li>Meat_O21_Alien_Kobold</li>
+            <li>Meat_O21_Alien_Orc</li>
+            <li>Meat_O21_Alien_Tiefling</li>
+            <li>Meat_O21_Alien_Illithid</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[@ParentName="CAN_CannibalCampfire" or @ParentName="CAN_CannibalStove" or @ParentName="CAN_CannibalButcher"]/ingredients/li/filter/thingDefs</xpath>
+          <value>
+            <li>Meat_O21_Alien_DarkElf</li>
+            <li>Meat_O21_Alien_MoonElf</li>
+            <li>Meat_O21_Alien_SunElf</li>
+            <li>Meat_O21_Alien_WoodElf</li>
+            <li>Meat_O21_Alien_Gith</li>
+            <li>Meat_O21_Alien_Goblin</li>
+            <li>Meat_O21_Alien_HalfOrc</li>
+            <li>Meat_O21_Alien_Hobgoblin</li>
+            <li>Meat_O21_Alien_Kobold</li>
+            <li>Meat_O21_Alien_Orc</li>
+            <li>Meat_O21_Alien_Tiefling</li>
+            <li>Meat_O21_Alien_Illithid</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

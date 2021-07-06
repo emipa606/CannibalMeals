@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <success>Always</success>
+    <mods>
+      <li>Beast Man Tribes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[@Name="CAN_CookMealBase"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>Meat_BearMan</li>
+            <li>Meat_CamelMan</li>
+            <li>Meat_ElephantMan</li>
+            <li>Meat_ElkMan</li>
+            <li>Meat_FoxMan</li>
+            <li>Meat_GazelleMan</li>
+            <li>Meat_LynxMan</li>
+            <li>Meat_PigMan</li>
+            <li>Meat_RaccoonMan</li>
+            <li>Meat_WolfMan</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[@Name="CAN_CookMealBase"]/defaultIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>Meat_BearMan</li>
+            <li>Meat_CamelMan</li>
+            <li>Meat_ElephantMan</li>
+            <li>Meat_ElkMan</li>
+            <li>Meat_FoxMan</li>
+            <li>Meat_GazelleMan</li>
+            <li>Meat_LynxMan</li>
+            <li>Meat_PigMan</li>
+            <li>Meat_RaccoonMan</li>
+            <li>Meat_WolfMan</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[@ParentName="CAN_CannibalCampfire" or @ParentName="CAN_CannibalStove" or @ParentName="CAN_CannibalButcher"]/ingredients/li/filter/thingDefs</xpath>
+          <value>
+            <li>Meat_BearMan</li>
+            <li>Meat_CamelMan</li>
+            <li>Meat_ElephantMan</li>
+            <li>Meat_ElkMan</li>
+            <li>Meat_FoxMan</li>
+            <li>Meat_GazelleMan</li>
+            <li>Meat_LynxMan</li>
+            <li>Meat_PigMan</li>
+            <li>Meat_RaccoonMan</li>
+            <li>Meat_WolfMan</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
