@@ -1,5 +1,8 @@
 # Changelog for CannibalMeals
 
+1.3.1 - Removed the patch for Forgotten realms since they use Human meat.
+
+
 1.1.24.0 - Mod updated for 1.3 and passed autotests
 
 
