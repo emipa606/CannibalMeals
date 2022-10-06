@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "VFE_TableStoveLarge"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef[@Name="CAN_CannibalCampfire" or @Name="CAN_CannibalStove" or @Name="CAN_InsectCampfire" or @Name="CAN_InsectStove"]/recipeUsers</xpath>
+        <value>
+          <li>VFE_TableStoveLarge</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "VFE_TableButcherElectric"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef[@Name="CAN_CannibalButcher" or @Name="CAN_InsectButcher"]/recipeUsers</xpath>
+        <value>
+          <li>VFE_TableButcherElectric</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "ElectricTableButcher"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef[@Name="CAN_CannibalButcher" or @Name="CAN_InsectButcher"]/recipeUsers</xpath>
+        <value>
+          <li>ElectricTableButcher</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
