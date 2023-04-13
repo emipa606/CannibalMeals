@@ -1,6 +1,6 @@
 # CannibalMeals
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://i.imgur.com/iCj5o7O.png)
 
   
 Adds cannibal and insect versions of all base meals.
@@ -43,14 +43,14 @@ Alien races supported (Thanks to @Cerrendel)
 https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657]![Image](https://i.imgur.com/kNldlMg.png)
 
 
-![Image](https://i.imgur.com/O0IIlYj.png)
+![Image](https://i.imgur.com/Ds0rBAD.png)
 
 Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my https://store.steampowered.com/wishlist/id/Mlie]Wishlist or buy me a cup of tea.
 
-https://ko-fi.com/G2G55DDYD]![Image](https://i.imgur.com/Utx6OIH.png)
+https://ko-fi.com/G2G55DDYD]![Image](https://i.imgur.com/VWG0yff.png)
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://i.imgur.com/5xwDG6H.png)
 
 
 
@@ -64,3 +64,4 @@ https://ko-fi.com/G2G55DDYD]![Image](https://i.imgur.com/Utx6OIH.png)
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/1558455017]Last updated 2023-04-13
