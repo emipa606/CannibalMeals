@@ -39,7 +39,7 @@
                 <def>CAN_CannibalMealSimple</def>
                 <count>20</count>
               </tracker>
-              <texPath>Achievements/CannibalSimple</texPath>
+              <texPath>Achievements/CAN_CannibalSimple</texPath>
               <points>10</points>
             </AchievementsExpanded.AchievementDef>
           </value>
@@ -55,7 +55,7 @@
                 <def>CAN_CannibalMealFine</def>
                 <count>20</count>
               </tracker>
-              <texPath>Achievements/CannibalFine</texPath>
+              <texPath>Achievements/CAN_CannibalFine</texPath>
               <points>15</points>
             </AchievementsExpanded.AchievementDef>
           </value>
@@ -71,7 +71,55 @@
                 <def>CAN_CannibalMealLavish</def>
                 <count>20</count>
               </tracker>
-              <texPath>Achievements/CannibalLavish</texPath>
+              <texPath>Achievements/CAN_CannibalLavish</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_OriginalAchievementParent">
+              <defName>CAN_NothingWasted</defName>
+              <label>Nothing wasted</label>
+              <description>Obtain 20 simple insect meals</description>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <def>CAN_InsectMealSimple</def>
+                <count>20</count>
+              </tracker>
+              <texPath>Achievements/CAN_InsectSimple</texPath>
+              <points>10</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_OriginalAchievementParent">
+              <defName>CAN_TryToIgnoreTheTaste</defName>
+              <label>Try to ignore the taste</label>
+              <description>Obtain 20 fine insect meals</description>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <def>CAN_InsectMealFine</def>
+                <count>20</count>
+              </tracker>
+              <texPath>Achievements/CAN_InsectFine</texPath>
+              <points>15</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_OriginalAchievementParent">
+              <defName>CAN_ActuallyNotThatBad</defName>
+              <label>Actually not that bad</label>
+              <description>Obtain 20 lavish insect meals</description>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <def>CAN_InsectMealLavish</def>
+                <count>20</count>
+              </tracker>
+              <texPath>Achievements/CAN_InsectLavish</texPath>
               <points>25</points>
             </AchievementsExpanded.AchievementDef>
           </value>

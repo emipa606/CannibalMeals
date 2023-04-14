@@ -1,5 +1,8 @@
 # Changelog for CannibalMeals
 
+1.4.3 - Added achievements for insect meals as well
+
+
 1.4.2 - Moved achievements to a personal tab
 
 
