@@ -1,5 +1,8 @@
 # Changelog for CannibalMeals
 
+1.4.4 - Changed the labels of the foods to be more inline with how the vanilla meals are defined
+
+
 1.4.3 - Added achievements for insect meals as well
 
 

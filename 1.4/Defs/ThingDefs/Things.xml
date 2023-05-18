@@ -71,7 +71,7 @@
   </ThingDef>
   <ThingDef ParentName="MealBase">
     <defName>CAN_CannibalMealSurvivalPack</defName>
-    <label>packaged survival cannibal meal</label>
+    <label>cannibal packaged survival meal</label>
     <description>A high-quality cannibal packaged meal, manufactured for use in survival situations.</description>
     <graphicData>
       <texPath>CAN_CannibalSurvivalPack</texPath>
@@ -95,7 +95,7 @@
   </ThingDef>
   <ThingDef ParentName="MealCooked">
     <defName>CAN_CannibalMealSimple</defName>
-    <label>simple cannibal meal</label>
+    <label>cannibal simple meal</label>
     <description>A simple meal quickly cooked from human meat and a few ingredients.</description>
     <graphicData>
       <texPath>CAN_CannibalSimple</texPath>
@@ -115,7 +115,7 @@
   </ThingDef>
   <ThingDef ParentName="MealCooked">
     <defName>CAN_CannibalMealFine</defName>
-    <label>fine cannibal meal</label>
+    <label>cannibal fine meal</label>
     <description>A complex dish assembled with care from human meat and a wide selection of ingredients.</description>
     <graphicData>
       <texPath>CAN_CannibalFine</texPath>
@@ -136,7 +136,7 @@
   </ThingDef>
   <ThingDef ParentName="MealCooked">
     <defName>CAN_CannibalMealLavish</defName>
-    <label>lavish cannibal meal</label>
+    <label>cannibal lavish meal</label>
     <description>A masterpiece of the cannibal culinary arts, this meal nourishes the body, mind, and soul.</description>
     <graphicData>
       <texPath>CAN_CannibalLavish</texPath>
@@ -226,7 +226,7 @@
   </ThingDef>
   <ThingDef ParentName="MealBase">
     <defName>CAN_InsectMealSurvivalPack</defName>
-    <label>packaged survival insect meal</label>
+    <label>insect packaged survival meal</label>
     <description>A high-quality insect packaged meal, manufactured for use in survival situations.</description>
     <graphicData>
       <texPath>CAN_InsectSurvivalPack</texPath>
@@ -250,7 +250,7 @@
   </ThingDef>
   <ThingDef ParentName="MealCooked">
     <defName>CAN_InsectMealSimple</defName>
-    <label>simple insect meal</label>
+    <label>insect simple meal</label>
     <description>A simple meal quickly cooked from insect meat and a few ingredients.</description>
     <graphicData>
       <texPath>CAN_InsectSimple</texPath>
@@ -270,7 +270,7 @@
   </ThingDef>
   <ThingDef ParentName="MealCooked">
     <defName>CAN_InsectMealFine</defName>
-    <label>fine insect meal</label>
+    <label>insect fine meal</label>
     <description>A complex dish assembled with care from insect meat and a wide selection of ingredients.</description>
     <graphicData>
       <texPath>CAN_InsectFine</texPath>
@@ -291,7 +291,7 @@
   </ThingDef>
   <ThingDef ParentName="MealCooked">
     <defName>CAN_InsectMealLavish</defName>
-    <label>lavish insect meal</label>
+    <label>insect lavish meal</label>
     <description>A masterpiece of the insect culinary arts, this meal nourishes the body, mind, and soul.</description>
     <graphicData>
       <texPath>CAN_InsectLavish</texPath>

@@ -111,7 +111,7 @@
   <!-- Cannibal Meals -->
   <RecipeDef Name="CAN_CannibalSimpleMeal" ParentName="CAN_CannibalCampfire">
     <defName>CAN_CookCannibalMealSimple</defName>
-    <label>cook simple cannibal meal</label>
+    <label>cook cannibal simple meal</label>
     <description>Cooks a straightforward meal from human meat.</description>
     <jobString>Cooking simple meal.</jobString>
     <ingredients>
@@ -131,7 +131,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_CannibalFineMeal" ParentName="CAN_CannibalStove">
     <defName>CAN_CookCannibalMealFine</defName>
-    <label>cook fine cannibal meal</label>
+    <label>cook cannibal fine meal</label>
     <description>Cooks a somewhat complex cannibal meal from a combination of human meat and organic ingredients.</description>
     <jobString>Cooking fine meal.</jobString>
     <ingredients>
@@ -163,7 +163,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_CannibalLavishMeal" ParentName="CAN_CannibalStove">
     <defName>CAN_CookCannibalMealLavish</defName>
-    <label>cook lavish cannibal meal</label>
+    <label>cook cannibal lavish meal</label>
     <description>Cooks a very complex cannibal meal from a combination of human meat and organic ingredients. Much of the ingredients are wasted.</description>
     <jobString>Cooking lavish meal.</jobString>
     <ingredients>
@@ -195,7 +195,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_CannibalSurvivalMeal" ParentName="CAN_CannibalStove">
     <defName>CAN_CookCannibalMealSurvival</defName>
-    <label>cook packaged survival cannibal meal</label>
+    <label>cook cannibal packaged survival meal</label>
     <description>Cooks a packaged survival cannibal meal from a combination of human meat and organic ingredients. Much of the ingredients are wasted.</description>
     <jobString>Cooking survival meal.</jobString>
     <ingredients>
@@ -295,7 +295,7 @@
   <!-- Cannibal Meals x4 -->
   <RecipeDef Name="CAN_CookCannibalMealSimpleBulk" ParentName="CAN_CannibalCampfire">
     <defName>CAN_CookCannibalMealSimpleBulk</defName>
-    <label>cook simple cannibal meal x4</label>
+    <label>cook cannibal simple meal x4</label>
     <description>Cook 4 straightforward cannibal meals from human meat.</description>
     <jobString>Cooking 4 simple meals.</jobString>
     <ingredients>
@@ -315,7 +315,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_CookCannibalMealFineBulk" ParentName="CAN_CannibalStove">
     <defName>CAN_CookCannibalMealFineBulk</defName>
-    <label>cook fine cannibal meal x4</label>
+    <label>cook cannibal fine meal x4</label>
     <description>Cook 4 somewhat complex cannibal meals from a combination of human meat and plant ingredients.</description>
     <jobString>Cooking 4 fine meals.</jobString>
     <ingredients>
@@ -347,7 +347,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_CookMealCannibalLavishBulk" ParentName="CAN_CannibalStove">
     <defName>CAN_CookMealCannibalLavishBulk</defName>
-    <label>cook lavish cannibal meal x4</label>
+    <label>cook cannibal lavish meal x4</label>
     <description>Cook 4 very complex cannibal meals from a combination of human meat and plant ingredients. Much of the ingredients are wasted.</description>
     <jobString>Cooking 4 lavish meals.</jobString>
     <ingredients>
@@ -379,7 +379,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_CookCannibalMealSurvivalBulk" ParentName="CAN_CannibalStove">
     <defName>CAN_CookCannibalMealSurvivalBulk</defName>
-    <label>cook packaged survival cannibal meal x4</label>
+    <label>cook cannibal packaged survival meal x4</label>
     <description>Prepare 4 packaged survival cannibal meals from a combination of human meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
     <jobString>Cooking 4 survival meals.</jobString>
     <ingredients>
@@ -443,7 +443,7 @@
   <!-- Insect Meals -->
   <RecipeDef Name="CAN_InsectSimpleMeal" ParentName="CAN_InsectCampfire">
     <defName>CAN_CookInsectSimpleMeal</defName>
-    <label>cook simple insect meal</label>
+    <label>cook insect simple meal</label>
     <description>Cooks a straightforward meal from insect meat.</description>
     <jobString>Cooking simple meal.</jobString>
     <ingredients>
@@ -463,7 +463,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_InsectFineMeal" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectFineMeal</defName>
-    <label>cook fine insect meal</label>
+    <label>cook insect fine meal</label>
     <description>Cooks a somewhat complex insect meal from a combination of insect meat and organic ingredients.</description>
     <jobString>Cooking fine meal.</jobString>
     <ingredients>
@@ -495,7 +495,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_InsectLavishMeal" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectLavishMeal</defName>
-    <label>cook lavish insect meal</label>
+    <label>cook insect lavish meal</label>
     <description>Cooks a very complex insect meal from a combination of insect meat and organic ingredients. Much of the ingredients are wasted.</description>
     <jobString>Cooking lavish meal.</jobString>
     <ingredients>
@@ -527,7 +527,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_InsectSurvivalMeal" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectSurvivalMeal</defName>
-    <label>cook survival insect meal</label>
+    <label>cook insect survival meal</label>
     <description>Cooks a packaged survival insect meal from a combination of insect meat and organic ingredients. Much of the ingredients are wasted.</description>
     <jobString>Cooking survival meal.</jobString>
     <ingredients>
@@ -627,7 +627,7 @@
   <!-- Insect Meals x4 -->
   <RecipeDef Name="CAN_CookInsectSimpleMealBulk" ParentName="CAN_InsectCampfire">
     <defName>CAN_CookInsectSimpleMealBulk</defName>
-    <label>cook simple insect meal x4</label>
+    <label>cook insect simple meal x4</label>
     <description>Cooks a straightforward meal from insect meat.</description>
     <jobString>Cooking simple meal.</jobString>
     <ingredients>
@@ -647,7 +647,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_CookInsectFineMealBulk" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectFineMealBulk</defName>
-    <label>cook fine insect meal x4</label>
+    <label>cook insect fine meal x4</label>
     <description>Cooks a somewhat complex insect meal from a combination of insect meat and organic ingredients.</description>
     <jobString>Cooking fine meal.</jobString>
     <ingredients>
@@ -679,7 +679,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_CookInsectLavishMealBulk" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectLavishMealBulk</defName>
-    <label>cook lavish insect meal x4</label>
+    <label>cook insect lavish meal x4</label>
     <description>Cooks a very complex insect meal from a combination of insect meat and organic ingredients. Much of the ingredients are wasted.</description>
     <jobString>Cooking lavish meal.</jobString>
     <ingredients>
@@ -711,7 +711,7 @@
   </RecipeDef>
   <RecipeDef Name="CAN_CookInsectSurvivalMealBulk" ParentName="CAN_InsectStove">
     <defName>CAN_CookInsectSurvivalMealBulk</defName>
-    <label>cook survival insect meal x4</label>
+    <label>cook insect survival meal x4</label>
     <description>Cooks a packaged survival insect meal from a combination of insect meat and organic ingredients. Much of the ingredients are wasted.</description>
     <jobString>Cooking survival meal.</jobString>
     <ingredients>
