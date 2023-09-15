@@ -1,6 +1,5 @@
 # CannibalMeals
-
-
+
 ![Image](https://i.imgur.com/iCj5o7O.png)
 
   
@@ -26,6 +25,7 @@ Alien races supported (Thanks to @Cerrendel)
 
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=959780399]Argonians of Blackmarsh
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=1611790118]Ferian Race
+-  https://steamcommunity.com/sharedfiles/filedetails/?id=1465072243]Fantasy Goblins
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=2011680079]Fantasy Goblins Updated
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=1400238872]Lord of the Rims - Dwarves
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=1400234784]Lord of the Rims - Elves
@@ -63,4 +63,6 @@ https://ko-fi.com/G2G55DDYD]![Image](https://i.imgur.com/VWG0yff.png)
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/1558455017]Last updated 2023-05-18
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/1558455017]![Image](https://img.shields.io/github/v/release/emipa606/CannibalMeals?label=latest%20version&style=plastic&labelColor=0070cd&color=white)
+

@@ -1,5 +1,8 @@
 # Changelog for CannibalMeals
 
+1.4.5 - Updated goblin patch to also work for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2011680079]Fantasy Goblins Updated[/url], thanks to Barsimmon!
+
+
 1.4.4 - Changed the labels of the foods to be more inline with how the vanilla meals are defined
 
 
