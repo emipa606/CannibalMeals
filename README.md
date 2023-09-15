@@ -1,5 +1,6 @@
 # CannibalMeals
-
+
+
 ![Image](https://i.imgur.com/iCj5o7O.png)
 
   
@@ -25,7 +26,7 @@ Alien races supported (Thanks to @Cerrendel)
 
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=959780399]Argonians of Blackmarsh
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=1611790118]Ferian Race
--  https://steamcommunity.com/sharedfiles/filedetails/?id=1465072243]Fantasy Goblins
+-  https://steamcommunity.com/sharedfiles/filedetails/?id=2011680079]Fantasy Goblins Updated
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=1400238872]Lord of the Rims - Dwarves
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=1400234784]Lord of the Rims - Elves
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=1400227853]Lord of the Rims - Hobbits
