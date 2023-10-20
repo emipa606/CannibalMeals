@@ -1,5 +1,8 @@
 # Changelog for CannibalMeals
 
+1.4.7 - Fixed the race-patches in 1.3 as well
+
+
 1.4.6 - Fixed the aline race-patches. Should now work regardless of mod-names
 
 

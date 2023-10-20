@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-  <Operation Class="PatchOperationFindMod">
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="LotRD_DwarfStandardRace"]</xpath>
     <success>Always</success>
-    <mods>
-      <li>Lord of the Rims - Dwarves</li>
-    </mods>
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationAdd">

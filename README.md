@@ -14,12 +14,6 @@ General
 
 
 
-Compatibilities
-- Compatible with existent saves and other mods.
-
-Contributors
-- Cerrendel
-
 Alien races supported (Thanks to @Cerrendel)
 
 
