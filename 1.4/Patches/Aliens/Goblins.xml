@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Fantasy_Goblin"]</xpath>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Fantasy_Goblin"]</xpath>
+    <success>Always</success>
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationAdd">

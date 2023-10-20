@@ -1,5 +1,8 @@
 # Changelog for CannibalMeals
 
+1.4.6 - Fixed the aline race-patches. Should now work regardless of mod-names
+
+
 1.4.5 - Updated goblin patch to also work for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2011680079]Fantasy Goblins Updated[/url], thanks to Barsimmon!
 
 
