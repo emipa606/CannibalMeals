@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cannibal kibble -->
+  <CAN_CannibalKibble.label>cannibal kibble</CAN_CannibalKibble.label>
+  <!-- EN: Animal feed made from human and plant sources. Humans can eat it, but they really, really don't like it. -->
+  <CAN_CannibalKibble.description>Animal feed made from human and plant sources. Humans can eat it, but they really, really don't like it.</CAN_CannibalKibble.description>
+  <!-- EN: cannibal fine meal -->
+  <CAN_CannibalMealFine.label>cannibal fine meal</CAN_CannibalMealFine.label>
+  <!-- EN: A complex dish assembled with care from human meat and a wide selection of ingredients. -->
+  <CAN_CannibalMealFine.description>A complex dish assembled with care from human meat and a wide selection of ingredients.</CAN_CannibalMealFine.description>
+  <!-- EN: cannibal lavish meal -->
+  <CAN_CannibalMealLavish.label>cannibal lavish meal</CAN_CannibalMealLavish.label>
+  <!-- EN: A masterpiece of the cannibal culinary arts, this meal nourishes the body, mind, and soul. -->
+  <CAN_CannibalMealLavish.description>A masterpiece of the cannibal culinary arts, this meal nourishes the body, mind, and soul.</CAN_CannibalMealLavish.description>
+  <!-- EN: cannibal simple meal -->
+  <CAN_CannibalMealSimple.label>cannibal simple meal</CAN_CannibalMealSimple.label>
+  <!-- EN: A simple meal quickly cooked from human meat and a few ingredients. -->
+  <CAN_CannibalMealSimple.description>A simple meal quickly cooked from human meat and a few ingredients.</CAN_CannibalMealSimple.description>
+  <!-- EN: cannibal packaged survival meal -->
+  <CAN_CannibalMealSurvivalPack.label>cannibal packaged survival meal</CAN_CannibalMealSurvivalPack.label>
+  <!-- EN: A high-quality cannibal packaged meal, manufactured for use in survival situations. -->
+  <CAN_CannibalMealSurvivalPack.description>A high-quality cannibal packaged meal, manufactured for use in survival situations.</CAN_CannibalMealSurvivalPack.description>
+  <!-- EN: cannibal pemmican -->
+  <CAN_CannibalPemmican.label>cannibal pemmican</CAN_CannibalPemmican.label>
+  <!-- EN: A preserved mashed mixture of human fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration. -->
+  <CAN_CannibalPemmican.description>A preserved mashed mixture of human fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</CAN_CannibalPemmican.description>
+  <!-- EN: insect kibble -->
+  <CAN_InsectKibble.label>insect kibble</CAN_InsectKibble.label>
+  <!-- EN: Animal feed made from insect and plant sources. Humans can eat it, but they really, really don't like it. -->
+  <CAN_InsectKibble.description>Animal feed made from insect and plant sources. Humans can eat it, but they really, really don't like it.</CAN_InsectKibble.description>
+  <!-- EN: insect fine meal -->
+  <CAN_InsectMealFine.label>insect fine meal</CAN_InsectMealFine.label>
+  <!-- EN: A complex dish assembled with care from insect meat and a wide selection of ingredients. -->
+  <CAN_InsectMealFine.description>A complex dish assembled with care from insect meat and a wide selection of ingredients.</CAN_InsectMealFine.description>
+  <!-- EN: insect lavish meal -->
+  <CAN_InsectMealLavish.label>insect lavish meal</CAN_InsectMealLavish.label>
+  <!-- EN: A masterpiece of the insect culinary arts, this meal nourishes the body, mind, and soul. -->
+  <CAN_InsectMealLavish.description>A masterpiece of the insect culinary arts, this meal nourishes the body, mind, and soul.</CAN_InsectMealLavish.description>
+  <!-- EN: insect simple meal -->
+  <CAN_InsectMealSimple.label>insect simple meal</CAN_InsectMealSimple.label>
+  <!-- EN: A simple meal quickly cooked from insect meat and a few ingredients. -->
+  <CAN_InsectMealSimple.description>A simple meal quickly cooked from insect meat and a few ingredients.</CAN_InsectMealSimple.description>
+  <!-- EN: insect packaged survival meal -->
+  <CAN_InsectMealSurvivalPack.label>insect packaged survival meal</CAN_InsectMealSurvivalPack.label>
+  <!-- EN: A high-quality insect packaged meal, manufactured for use in survival situations. -->
+  <CAN_InsectMealSurvivalPack.description>A high-quality insect packaged meal, manufactured for use in survival situations.</CAN_InsectMealSurvivalPack.description>
+  <!-- EN: insect pemmican -->
+  <CAN_InsectPemmican.label>insect pemmican</CAN_InsectPemmican.label>
+  <!-- EN: A preserved mashed mixture of insect fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration. -->
+  <CAN_InsectPemmican.description>A preserved mashed mixture of insect fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</CAN_InsectPemmican.description>
+</LanguageData>
